@@ -1,23 +1,23 @@
-# Compiled class file
-*.class
+package com.open_bootcamp;
 
-# Log file
-*.log
+import java.util.ArrayList;
 
-# BlueJ files
-*.ctxt
+public class main {
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+	public static void Main (String[] args){
+	
+		int Resultado;
+		Resultado = suma (a:1; b:2, c:3);
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+		system.out.println ( Resultado );
+	}
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+	public static void suma (int a, int b, int c){
+		return a + b + c;
+
+	}
+
+}
+
+
+
